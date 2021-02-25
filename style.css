@@ -1,0 +1,45 @@
+label {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    display: flex;
+    flex: column;
+    margin-top: 3%;
+}
+form input {
+    margin-left: 2%;
+    width: 50%;
+}
+
+form textarea {
+    height: 10rem;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+
+form button {
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    margin-left: 50%;
+    
+}
+
+@media all and (min-width: 600px) {
+    form {
+        margin-left: 25%;
+    }
+    
+
+    form textarea {
+        height: 10rem;
+        width: 50%;
+        margin-left: 3px;
+
+    }
+
+    form button {
+        margin-left: 35%;
+    }
+}
